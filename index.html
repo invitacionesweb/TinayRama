@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN" crossorigin="anonymous">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelementplayer.min.css" />
+
+    <title>Tina y Rama</title>
+
+</head>
+<body>
+<!--
+        <header >
+        <nav>
+            <div class="logo">
+
+               
+            </div>
+            <div class="hamburger" id="hamburger">
+                &#9776;
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#section1">Detalles</a></li>
+                <li><a href="#section2">Información</a></li>
+                <li><a href="#section3">Redes</a></li>
+
+                <li><a href="#section4" class="rsvp-btn">RSVP</a></li>
+                <br>
+            </ul>
+        </nav>
+    </header>
+-->
+
+    <div class="background">
+        
+    </div>
+        <div class="audiodiv">
+            <audio id="myAudio" preload="auto">
+            <source src="./bridgerton.mp3" type="audio/mpeg">
+            </audio>
+            <div id="playPauseBtn" class="play">
+                <img src="./img/notamusical.png" alt="Icono de música">
+            </div>
+        </div>
+
+    <p data-aos="fade-up" class="titulocontador">Faltan:</p>
+    <div class="contador">
+    
+        <div class="bloque">
+            <div data-aos="fade-up" id="dias" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">Días</div>
+        </div>
+
+        <div class="bloque">
+            <div data-aos="fade-up" id="horas" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">horas</div>
+        </div>
+
+        <div class="bloque">
+            <div data-aos="fade-up" id="minutos" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">minutos</div>
+        </div>
+
+        <div class="bloque">
+            <div data-aos="fade-up" id="segundos" class="numero"></div>
+            <div data-aos="fade-up" class="etiqueta">segundos</div>
+        </div>
+    </div>
+
+
+<div class="datos-ubicacion">
+    <div>
+        <img data-aos="fade-down" src="./img-editable/icono1.png" alt="">
+    </div>
+  <div class="datos">
+      <!--
+    <div >
+        <p data-aos="fade-up">19:00hs - Basilica Nuestra Señora de Luján</p>
+        <a data-aos="fade-up" class="boton" href="https://www.google.com/maps/dir//Bas%C3%ADlica+Nuestra+Se%C3%B1ora+de+Luj%C3%A1n,+San+Mart%C3%ADn+51,+B6700CCU+Luj%C3%A1n,+Provincia+de+Buenos+Aires/@-34.5651096,-59.1323866,15z/data=!4m17!1m7!3m6!1s0x95bc7deea7385433:0xcfc11574d47db937!2sBas%C3%ADlica+Nuestra+Se%C3%B1ora+de+Luj%C3%A1n!8m2!3d-34.5645279!4d-59.1216145!16s%2Fm%2F0zdkqyn!4m8!1m0!1m5!1m1!1s0x95bc7deea7385433:0xcfc11574d47db937!2m2!1d-59.1216145!2d-34.5645279!3e0?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoASAFQAw%3D%3D">CÓMO LLEGAR</a>
+    </div>
+    -->
+     <div >
+        <p data-aos="fade-up">19:30hs -Villa Golf Eventos</p>
+        <P class="aclaracion">Se ruega puntualidad <br> Inicio de ceremonia 20 hs. </P> <br>
+        <a data-aos="fade-up" class="boton" target="_blank"  href="https://www.google.com.ar/maps/dir//Villa+Golf+Eventos,+R%C3%ADo+de+Janeiro+2001,+X5105+Villa+Allende,+C%C3%B3rdoba/@-31.3006929,-64.2722106,17z/data=!4m17!1m7!3m6!1s0x94329cf5ab383f3b:0x282082eecf47413e!2sVilla+Golf+Eventos!8m2!3d-31.3006975!4d-64.2696303!16s%2Fg%2F11g8zdd90g!4m8!1m0!1m5!1m1!1s0x94329cf5ab383f3b:0x282082eecf47413e!2m2!1d-64.2696303!2d-31.3006975!3e0?hl=es&entry=ttu&g_ep=EgoyMDI2MDYxMy4wIKXMDSoASAFQAw%3D%3D">CÓMO LLEGAR</a>
+    </div>
+  </div>
+</div>
+
+<div class="novios">
+    <img src="./img-editable/fotos1.png" alt="">
+    <div class="icono2">
+      <img data-aos="fade-down" src="./img-editable/icono2.png" alt="">
+    </div>
+    <div class="icono3">
+      <img  data-aos="fade-up" src="./img-editable/icono3.png" alt="">
+    </div>
+</div>
+<main>
+  <div class="information">
+  <div  class="information-bloque">
+    <img data-aos="fade-up" src="./img-editable/RELICARIO.png" alt="">
+    <h3 data-aos="fade-up" >Instagram</h3>
+    <p data-aos="fade-up">NO NOS QUEREMOS PERDER DE NADA, POR FAVOR SEGUINOS Y ETIQUETA EL INSTAGRAM DE LA BODA PARA QUE PODAMOS REVIVIR MOMENTOS</p>
+    <a data-aos="fade-up" class="boton" target="_blank"  href="https://www.instagram.com/bodatinayrama/">@boda.tinayrama</a>
+  </div>
+<br><br><br>
+  <div  class="information-bloque">
+    <img data-aos="fade-up"  src="./img-editable/fiesta.png" alt="">
+    <h3 data-aos="fade-up" >Playlist</h3>
+    <p data-aos="fade-up" > LA FIESTA LA HACES VOS, AYUDANOS CON LA MÚSICA, RECOMENDANOS ESA CANCIÓN QUE NO PUEDE FALTAR</p>
+    <a  data-aos="fade-up"  class="boton" target="_blank" href="https://open.spotify.com/playlist/3y2U4Pyfu5qVZGJi2uT3l5?si=oLhfWJ4UT62FXaVzkaP3gQ&pt=5e3766523d0ca386b32fe4acefd33f48&pi=1dWgg_ruRrOJZ">PLAYLIST</a>
+  </div>
+<br>
+</div>  
+</main>
+
+
+ <div id="section2" class="accordion">
+        <H3 data-aos="fade-up">Antes de que nos consultes...</H3>
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿CÓMO ME VISTO?</button>
+            <div class="accordion-content">
+                <p>QUEREMOS QUE TE SIENTAS CÓMODO/A Y CANCHERO/A, PERO TAMBIÉN QUE SE NOTE QUE ES UN DÍA ESPECIAL. 📸 LAS FOTOS VAN A QUEDAR PARA SIEMPRE, ASÍ QUE: ELEGANTE Y CON ONDA, PERO SIN ESTRÉS. NO OLVIDES QUE EL BLANCO ES DE LA NOVIA.</p> 
+            </div>
+        </div>
+
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿QUÉ LES REGALO?</button>
+            <div class="accordion-content">
+                <p>EL MEJOR REGALO ES QUE ESTÉS CON NOSOTROS 💕 PERO SI QUERÉS COLABORAR PARA NUESTRA LUNA DE MIEL TE DEJAMOS NUESTROS DATOS:
+
+                </p>
+                <div class="gift-block">
+                    <div class="gift-box">
+                        <div class="boton2" onclick="copyToClipboard('estoesunejemplo')">COPIAR CBU</div>
+                    </div> <br>
+                    <div class="gift-box">
+                        <div class="boton2" onclick="copyToClipboard('estoesunejemplo')">COPIAR ALIAS</div>
+                    </div>
+                    <br>
+                   
+                </div>
+                <p>TITULAR DE LA CUENTA: xxxxxxxx </p>
+                 <br>
+            </div>
+        </div>
+
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿PUEDO LLEVAR A LOS PEQUES?</button>
+            <div class="accordion-content">
+                <p>AMAMOS A LOS NIÑOS… ¡PERO ESTA VEZ PLANEAMOS UNA CELEBRACIÓN PENSADA PARA ADULTOS! QUEREMOS QUE TODOS PUEDAN RELAJARSE, BRINDAR Y BAILAR SIN INTERRUPCIONES. GRACIAS POR ENTENDER 💖  </p> 
+
+            </div>
+        </div>
+        
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿DÓNDE ESTACIONO?</button>
+            <div class="accordion-content">
+                <p>¡SABEMOS QUE NO QUERÉS ANDAR DANDO VUELTAS!
+EN EL SALÓN HAY ESPACIO PARA ESTACIONAR CON COMODIDAD.
+                </p> 
+
+            </div>
+        </div>
+        
+        <div data-aos="fade-up"  class="accordion-item">
+            <button class="accordion-header">¿QUÉ PASA SI TENGO MÁS DUDAS?</button>
+            <div class="accordion-content">
+                <p>CREEMOS QUE TODAS TUS DUDAS ESTÁN RESUELTAS PERO SI TENÉS MÁS CONSULTAS NO DUDES EN ESCRIBIRNOS A NOSOTROS HASTA 48 HS ANTES DEL EVENTO O A NUESTROS FAMILIARES…CREEMOS QUE TODAS TUS DUDAS ESTÁN RESUELTAS PERO SI TENÉS MÁS CONSULTAS NO DUDES EN ESCRIBIRNOS A NOSOTROS HASTA 48 HS ANTES DEL EVENTO O A NUESTROS FAMILIARES MÁS CERCANOS DENTRO DE LAS 48 HS PREVIAS.</p> 
+
+            </div>
+        </div>
+    <br>
+        <div class="icono4">
+        <img data-aos="fade-down" src="./img-editable/icono4.png" alt="">
+        </div>
+        <div class="icono5">
+        <img  data-aos="fade-up" src="./img-editable/icono5.png" alt="">
+        </div>
+    </div>
+
+
+     <div class="forms">
+        
+
+        <form name="asistenciaform" method="POST" action="https://script.google.com/macros/s/AKfycbxeYgfI02AMXYqJJlbHv6GAX0tsU9FYsaf_NkCvu5dcJNtUnk5HoSIkPh8ZWOKSJqYJFA/exec" class="formulario">
+
+            <label data-aos="fade-up" class="formtitle">Sólo faltas vos, Venis?</label>
+
+            <div class="radio-group">
+                <label class="radio-option">
+                <input type="radio" name="ASISTENCIA" value="sí" required />
+                <span>Sí</span>
+                </label>
+                <label class="radio-option">
+                <input type="radio" name="ASISTENCIA" value="no" />
+                <span>No</span>
+                </label>
+            </div>
+
+            <input type="text" name="NOMBRE" placeholder="Nombre" required />
+            <input type="text" name="APELLIDO" placeholder="Apellido" required />
+            <input type="text" name="DIETA" placeholder="Vegano / vegetariano / celíaco / nada"  />
+             <textarea name="MENSAJE" placeholder="Dejale un mensaje a los novios 🤍"></textarea> 
+
+
+            <button type="submit" class="boton">ENVIAR</button>
+        </form>
+
+        <p data-aos="fade-up">RECORDÁ COMPLETAR UN FORMULARIO POR PERSONA. <br> HACELO ANTES DEL DOMINGO 19 DE OCTUBRE.</div>
+
+
+    <div class="novios">
+        <img src="./img-editable/fotos2.png" alt="">
+    
+        
+       
+    </div>
+
+    
+
+    <div class="end">
+        <img data-aos="fade-up" src="./img-editable/manosanillos.png" alt="">
+        <h2 data-aos="fade-up" >Tina y Rama</h2>
+        <p data-aos="fade-down">Te esperamos</p>
+    </div>
+
+    <footer>
+        <div class="contenido">
+            <div>
+            <img src="./img/logosiquiero.png" alt="icono si quiero">
+                <p>Hecho con &hearts; <br>
+                &#169 <b>Si,quiero!</b> - invitaciones inteligentes.
+                <br> Todos los derechos reservados.</p>
+            </div>
+            
+            <div class="contenido-list">
+                <ul>
+                    <li><a target="_blank" href="https://www.instagram.com/siquiero.arg/"><i class="bi bi-instagram"></i></a></li>
+                    <li><a target="_blank" href="https://www.facebook.com/Invitaciones-web-112187784608681"><i class="bi bi-facebook"></i></a></li>
+                    <li><a target="_blank" href="mailto:siquiero.invitaciones@gmail.com"><i class="bi bi-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./countdwon.js"></script>
+<script src="./reproductor.js"></script>
+<script src="./form.js"></script>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const audio = document.getElementById("myAudio");
+
+    // Escucha el primer scroll
+    const playOnScroll = () => {
+      audio.play().catch(e => {
+        console.warn("El navegador bloqueó la reproducción automática", e);
+      });
+      document.removeEventListener("scroll", playOnScroll); // Se ejecuta solo una vez
+    };
+
+    document.addEventListener("scroll", playOnScroll);
+  });
+</script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script>
+
+    <script>
+
+    function copyToClipboard(text) {
+       const tempInput = document.createElement("input");
+       document.body.appendChild(tempInput);
+       tempInput.value = text;
+       tempInput.select();
+       document.execCommand("copy");
+       document.body.removeChild(tempInput);
+       alert(`Copiaste los datos de cuenta "${text}" a tu portapapeles`);
+     }
+   </script>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const headers = document.querySelectorAll(".accordion-header");
+
+    headers.forEach((header) => {
+      header.addEventListener("click", function () {
+        const item = this.parentElement;
+        item.classList.toggle("active");
+
+        // Cierra otros ítems si querés que solo se abra uno a la vez:
+        headers.forEach((otherHeader) => {
+          const otherItem = otherHeader.parentElement;
+          if (otherItem !== item) {
+            otherItem.classList.remove("active");
+          }
+        });
+      });
+    });
+  });
+</script>
+     
+</body>
+</html>
